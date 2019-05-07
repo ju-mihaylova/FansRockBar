@@ -1,12 +1,13 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Rock Band Template</title>
+    <title>Rock Bar Fans</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
 </head>
 <body>
 
@@ -14,28 +15,22 @@
 <div class="top">
     <div class="bar black card">
         <a id="bars-menu" class="bar-item button padding-large hide-medium hide-large right" href="#" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-        <a href="#" class="bar-item button padding-large">HOME</a>
-        <a href="#band" class="bar-item button padding-large hide-small">BAND</a>
-        <a href="#tour" class="bar-item button padding-large hide-small">TOUR</a>
+        <a href="#" id="fans-logo" class="bar-item button"><img src="img/fans_logo.jpg" alt="Fans Rock Bar" style="width: 45px"></a>
+        <a href="#" class="bar-item button padding-large hide-small">HOME</a>
+        <a href="#about" class="bar-item button padding-large hide-small">ABOUT</a>
+        <a href="#gallery" class="bar-item button padding-large hide-small">GALLERY</a>
+        <a href="#events" class="bar-item button padding-large hide-small">EVENTS</a>
         <a href="#contact" class="bar-item button padding-large hide-small">CONTACT</a>
-        <div class="dropdown-hover hide-small">
-            <button class="padding-large button" title="More">MORE <i class="fa fa-caret-down"></i></button>
-            <div class="dropdown-content bar-block card-4">
-                <a href="#" class="bar-item button">Merchandise</a>
-                <a href="#" class="bar-item button">Extras</a>
-                <a href="#" class="bar-item button">Media</a>
-            </div>
-        </div>
-        <a href="#" id="nav-search" class="padding-large hover-red hide-small right"><i class="fa fa-search"></i></a>
     </div>
 </div>
 
 <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
 <div id="nav-sm-scr" class="bar-block black hide hide-large hide-medium top">
-    <a href="#band" class="bar-item button padding-large">BAND</a>
-    <a href="#tour" class="bar-item button padding-large">TOUR</a>
+    <a href="#" class="bar-item button padding-large">HOME</a>
+    <a href="#about" class="bar-item button padding-large">ABOUT</a>
+    <a href="#gallery" class="bar-item button padding-large">GALLERY</a>
+    <a href="#events" class="bar-item button padding-large">EVENTS</a>
     <a href="#contact" class="bar-item button padding-large">CONTACT</a>
-    <a href="#" class="bar-item button padding-large">MERCH</a>
 </div>
 
 <!-- Page content -->
@@ -43,110 +38,104 @@
 
     <!-- Automatic Slideshow Images -->
     <div class="slides display-container center">
-        <img src="img/la.jpg">
+        <img src="img/fans_stage.jpg">
         <div class="display-bottommiddle container text-white padding-32 hide-small">
-            <h3>Los Angeles</h3>
-            <p><b>We had the best time playing at Venice Beach!</b></p>
+            <h3>Sofia</h3>
+            <p><b>We had the best time playing!</b></p>
         </div>
     </div>
     <div class="slides display-container center">
-        <img src="img/ny.jpg">
+        <img src="img/fans_interior.jpg">
         <div class="display-bottommiddle container text-white padding-32 hide-small">
-            <h3>New York</h3>
-            <p><b>The atmosphere in New York is lorem ipsum.</b></p>
+            <h3>Sofia</h3>
+            <p><b>The atmosphere in Sofia is unimaginable.</b></p>
         </div>
     </div>
     <div class="slides display-container center">
-        <img src="img/chicago.jpg">
+        <img src="img/fans_party.jpg">
         <div class="display-bottommiddle container text-white padding-32 hide-small">
-            <h3>Chicago</h3>
-            <p><b>Thank you, Chicago - A night we won't forget.</b></p>
+            <h3>Sofia</h3>
+            <p><b>Thank you, Sofia - A night we won't forget.</b></p>
         </div>
     </div>
 
-    <!-- The Band Section -->
-    <div id="band" class="container content center padding-64">
-        <h2 class="wide">THE BAND</h2>
-        <p class="opacity"><i>We love music</i></p>
-        <p class="justify">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+    <!-- The About Section -->
+    <div id="about" class="container content center padding-64">
+        <h2 class="wide">THE PLACE</h2>
+        <p class="opacity"><i>The best rock bar in town</i></p>
+        <p class="justify">Welcome! This is the Fans Rock Bar website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
             ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
             adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         <div id="name" class="row padding-32">
-            <div class="third">
-                <p>Name</p>
-                <img src="img/bandmember.jpg" class="round margin-bottom" alt="Random Name">
+            <div class="third">               
+                <img src="img/bandmember.jpg" class="round margin-bottom" alt="Nadia">
+                <p>Nadia</p>
             </div>
             <div class="third">
-                <p>Name</p>
-                <img src="img/bandmember.jpg" class="round margin-bottom" alt="Random Name">
-            </div>
-            <div class="third">
-                <p>Name</p>
-                <img src="img/bandmember.jpg" class="round" alt="Random Name">
+                <img src="img/bandmember.jpg" class="round margin-bottom" alt="Nikola">
+                <p>Nikola</p>
             </div>
         </div>
     </div>
 
-    <!-- The Tour Section -->
-    <div class="black" id="tour">
+    <!-- The Events Section -->
+    <div class="black" id="events">
         <div class="container content padding-64">
-            <h2 class="wide center">TOUR DATES</h2>
-            <p class="opacity center"><i>Remember to book your tickets!</i></p><br>
-
-            <ul class="ul border white text-grey">
-                <li class="padding">September <span class="tag red margin-left">Sold out</span></li>
-                <li class="padding">October <span class="tag red margin-left">Sold out</span></li>
-                <li class="padding">November <span   class="badge right margin-right">3</span></li>
-            </ul>
+            <h2 class="wide center">EVENTS</h2><br>
 
             <div id="city" class="row-padding padding-32">
                 <div class="third margin-bottom">
-                    <img src="img/newyork.jpg" alt="New York" class="hover-opacity">
+                    <img src="img/events_hammerhead.jpg" alt="Hammerhead" class="hover-opacity">
                     <div class="container white">
-                        <p><b>New York</b></p>
-                        <p class="opacity">Fri 27 Nov 2016</p>
-                        <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                        <button class="button black margin-bottom" onclick="document.getElementById('ticket-modal').style.display='block'">Buy Tickets</button>
+                        <p><b>Hammerhead</b></p>
+                        <p class="opacity">Fri 10 May 2019</p>
+                        <p>HAMMERHEAD ще забият най-големите хитове на METALLICA в столичния клуб "Фенс" в петък, 10 май, начало 22,00 ч. Вход: 10,00 лв.</p>
                     </div>
                 </div>
                 <div class="third margin-bottom">
-                    <img src="img/paris.jpg" alt="Paris" class="hover-opacity">
+                    <img src="img/events_serpentine.jpg" alt="Serpentine" class="hover-opacity">
                     <div class="container white">
-                        <p><b>Paris</b></p>
-                        <p class="opacity">Sat 28 Nov 2016</p>
-                        <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                        <button class="button black margin-bottom" onclick="document.getElementById('ticket-modal').style.display='block'">Buy Tickets</button>
+                        <p><b>Serpentine</b></p>
+                        <p class="opacity">Sat 11 May 2019</p>
+                        <p>Ще отбележим нашият десет годишен юбилей, с концерт промоция на последното ни издание 7`` EP - "AVE EVA". Първата банда, която ще вземе участие на 11-и Май е SATANIC HATRED!  На сцената също ще се качат и BELGARATH . Начало - 21ч., а входът ще бъде 8лв.</p>
                     </div>
                 </div>
                 <div class="third margin-bottom">
-                    <img src="img/sanfran.jpg" alt="San Francisco" class="hover-opacity">
+                    <img src="img/events_alien_industry.jpg" alt="Alien Industry" class="hover-opacity">
                     <div class="container white">
-                        <p><b>San Francisco</b></p>
-                        <p class="opacity">Sun 29 Nov 2016</p>
-                        <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                        <button class="button black margin-bottom" onclick="document.getElementById('ticket-modal').style.display='block'">Buy Tickets</button>
+                        <p><b>Alien Industry</b></p>
+                        <p class="opacity">Thu 16 May 2019</p>
+                        <p>Време е за нова близка среща. 
+                            Няколко нови експеримента са в напреднала фаза и чакат да бъдат изпробвани в лабораторията на кораба - майка. 
+                            Имаме нужда от доброволци - имаме нужда от вас!</p>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Ticket Modal -->
-    <div id="ticket-modal" class="modal">
-        <div class="modal-content animate-top card-4">
-            <header class="container teal center padding-32">
-        <span onclick="document.getElementById('ticket-modal').style.display='none'"
-              class="button teal xlarge display-topright">×</span>
-                <h2 class="wide"><i class="fa fa-suitcase margin-right"></i>Tickets</h2>
-            </header>
-            <div class="container">
-                <p><label><i class="fa fa-shopping-cart"></i> Tickets, $15 per person</label></p>
-                <input class="input border" type="text" placeholder="How many?">
-                <p><label><i class="fa fa-user"></i> Send To</label></p>
-                <input class="input border" type="text" placeholder="Enter email">
-                <button class="button block teal padding-16 section right">PAY <i class="fa fa-check"></i></button>
-                <button class="button red section" onclick="document.getElementById('ticket-modal').style.display='none'">Close <i class="fa fa-remove"></i></button>
-                <p class="right">Need <a href="#" class="text-blue">help?</a></p>
+                <div class="third margin-bottom">
+                    <img src="img/events_hammerhead.jpg" alt="Hammerhead" class="hover-opacity">
+                    <div class="container white">
+                        <p><b>Hammerhead</b></p>
+                        <p class="opacity">Fri 10 May 2019</p>
+                        <p>HAMMERHEAD ще забият най-големите хитове на METALLICA в столичния клуб "Фенс" в петък, 10 май, начало 22,00 ч. Вход: 10,00 лв.</p>
+                    </div>
+                </div>
+                <div class="third margin-bottom">
+                    <img src="img/events_serpentine.jpg" alt="Serpentine" class="hover-opacity">
+                    <div class="container white">
+                        <p><b>Serpentine</b></p>
+                        <p class="opacity">Sat 11 May 2019</p>
+                        <p>Ще отбележим нашият десет годишен юбилей, с концерт промоция на последното ни издание 7`` EP - "AVE EVA". Първата банда, която ще вземе участие на 11-и Май е SATANIC HATRED!  На сцената също ще се качат и BELGARATH . Начало - 21ч., а входът ще бъде 8лв.</p>
+                    </div>
+                </div>
+                <div class="third margin-bottom">
+                    <img src="img/events_alien_industry.jpg" alt="Alien Industry" class="hover-opacity">
+                    <div class="container white">
+                        <p><b>Alien Industry</b></p>
+                        <p class="opacity">Thu 16 May 2019</p>
+                        <p>Време е за нова близка среща. 
+                            Няколко нови експеримента са в напреднала фаза и чакат да бъдат изпробвани в лабораторията на кораба - майка. 
+                            Имаме нужда от доброволци - имаме нужда от вас!</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -154,12 +143,12 @@
     <!-- The Contact Section -->
     <div id="contact" class="container content padding-64">
         <h2 class="wide center">CONTACT</h2>
-        <p class="opacity center"><i>Fan? Drop a note!</i></p>
+        <p class="opacity center"><i>Get in touch!</i></p>
         <div class="row padding-32">
             <div class="col m6 large margin-bottom">
-                <i class="fa fa-map-marker"></i> Chicago, US<br>
-                <i class="fa fa-phone"></i> Phone: +00 151515<br>
-                <i class="fa fa-envelope"></i> Email: mail@mail.com<br>
+                <i class="fa fa-map-marker"></i>114 Vasil Levski Blvd, Sofia, Bulgaria<br>
+                <i class="fa fa-phone"></i> Phone: +359 876 580 803<br>
+                <i class="fa fa-envelope"></i> Email: bindzi@mail.bg<br>
             </div>
             <div class="col m6">
                 <form action="/action_page.php" target="_blank">
@@ -175,6 +164,9 @@
                     <button class="button black section right" type="submit">SEND</button>
                 </form>
             </div>
+            <div class="co m6">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2932.1637736315074!2d23.332328615333793!3d42.70025287916553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40aa857a528d59a5%3A0xa5d9355d028e440e!2sbul.+%22Vasil+Levski%22+114%2C+1527+Sofia+Center%2C+Sofia!5e0!3m2!1sen!2sbg!4v1557072249263!5m2!1sen!2sbg" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
         </div>
     </div>
 
@@ -182,7 +174,8 @@
 </div>
 
 <!-- Image of location/map -->
-<img src="img/map.jpg" class="image greyscale-min">
+<!-- <img src="img/map.jpg" class="image greyscale-min"> -->
+
 
 <!-- Footer -->
 <footer class="container padding-64 center opacity light-grey xlarge">
@@ -192,8 +185,46 @@
     <i class="fa fa-pinterest-p hover-opacity"></i>
     <i class="fa fa-twitter hover-opacity"></i>
     <i class="fa fa-linkedin hover-opacity"></i>
-    <p class="medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
 </footer>
+    <!-- The Gallery Section -->
+    <div class="black" id="gallery">
+        <div class="container content padding-64">
+            <h2 class="wide center">GALLERY</h2><br>
+
+            <div id="city" class="row-padding padding-32">
+                <div class="third margin-bottom photo">
+                    <img src="img/photo1_timg.jpg" alt="Hammerhead" class="hover-opacity">
+                </div>
+                <div class="third margin-bottom photo">
+                    <img src="img/photo2_timg.jpg" alt="Serpentine" class="hover-opacity">
+                </div>
+                <div class="third margin-bottom photo">
+                    <img src="img/photo3_timg.jpg" alt="Alien Industry" class="hover-opacity">
+                </div>
+                <div class="third margin-bottom photo">
+                    <img src="img/photo4_timg.jpg" alt="Hammerhead" class="hover-opacity">
+                </div>
+                <div class="third margin-bottom photo">
+                    <img src="img/photo5_timg.jpg" alt="Serpentine" class="hover-opacity">
+                </div>
+                <div class="third margin-bottom photo">
+                    <img src="img/photo6_timg.jpg" alt="Alien Industry" class="hover-opacity">
+                </div>
+                <div class="third margin-bottom photo">
+                    <img src="img/photo7_timg.jpg" alt="Alien Industry" class="hover-opacity">
+                </div>
+                <div class="third margin-bottom photo">
+                    <img src="img/photo8_timg.jpg" alt="Alien Industry" class="hover-opacity">
+                </div>
+                <div class="third margin-bottom photo">
+                    <img src="img/photo9_timg.jpg" alt="Alien Industry" class="hover-opacity">
+                </div>
+                <div class="third margin-bottom photo">
+                    <img src="img/photo10_timg.jpg" alt="Alien Industry" class="hover-opacity">
+                </div>
+            </div>
+        </div>
+    </div>
 <script src="js/main.js"></script>
 </body>
 </html>

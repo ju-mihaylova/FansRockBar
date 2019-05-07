@@ -40,7 +40,3 @@ window.onclick = function(e) {
         modal.style.display = "none";
     }
 };
-const navSearch = document.getElementById('nav-search');
-navSearch.addEventListener('click', function (e) {
-   e.preventDefault();
-});
