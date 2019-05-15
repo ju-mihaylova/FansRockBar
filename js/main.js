@@ -33,10 +33,56 @@ const barsMenu = document.querySelector('#bars-menu');
 barsMenu.addEventListener('click', e => e.preventDefault());
 barsMenu.addEventListener('click', toggleMenu);
 
-// When the user clicks anywhere outside of the modal, close it
-let modal = document.getElementById('ticket-modal');
-window.onclick = function(e) {
-    if (e.target === modal) {
-        modal.style.display = "none";
+// Gallery Images 
+
+// Get the modal
+const gallery = document.getElementById('gallery');
+gallery.addEventListener('click', openPhoto);
+gallery.addEventListener('click', closePhoto);
+
+function openPhoto(e) {
+// Get the image and insert it inside the modal
+    if(e.target.classList.contains('myImg')) {
+        const img = e.target;
+        const modal = img.nextElementSibling;
+        modal.style.display = 'block';
     }
-};
+}
+
+function closePhoto(e) {
+    if(e.target.classList.contains('close')) {
+        const btnClose = e.target;
+        const modal = btnClose.parentElement;
+        modal.style.display = 'none';
+    }
+}
+
+// Lightbox Effect
+let photoIndex = 1;
+
+gallery.addEventListener('click', showPrevPhoto);
+gallery.addEventListener('click', showNextPhoto);
+
+function showPrevPhoto(e) {
+    if(e.target.classList.contains('prev')) {
+        showPhotos(photoIndex += -1);
+    }
+}
+
+function showNextPhoto(e) {
+    if(e.target.classList.contains('next')) {
+        showPhotos(photoIndex += 1);
+    }
+}
+
+function showPhotos(n) {
+
+  const photos = document.getElementsByClassName("modal");
+
+  if (n > photos.length) {photoIndex = 1}
+  if (n < 1) {photoIndex = photos.length}
+  for (let i = 0; i < photos.length; i++) {
+    photos[i].style.display = "none";
+  }
+  photos[photoIndex - 1].style.display = "block";
+}
