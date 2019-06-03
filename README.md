@@ -1,15 +1,15 @@
 # FansRockBar
 **General Info**</br>
-This repository holds a project for Fans Rock Bar's website - a rock club located in downtown Sofia. 
-The website's layout is based on a w3schools responsive layout template and is customized to fit the client's needs. All assets used in the creation of the website were taken from the bar's facebook page - https://www.facebook.com/rockbarfans/. 
+This project offers a possible design and implementation of a website of Fans Rock Bar - a club located in downtown Sofia. 
+The website's layout is based on a w3schools responsive layout template and is customized to fit the potential client's needs. All assets used in the creation of the website have been taken from the bar's facebook page - https://www.facebook.com/rockbarfans/. 
 
 **Responsive Layouts**</br>
-What follows is a preview of the website in mobile, tablet and desktop view.
-
+The website's look and feel is best viewed on GitHub Pages @ https://ju-mihaylova.github.io/FansRockBar/.</br>
+Previews on mobile, tablet and desktop are also available below:
 
 ![View Fans Website on a Mobile Phone](./previews/Fans_Mobile.gif)
 
-<p><i>Mobile First Mode</i></p>
+<p><i>Mobile Mode</i></p>
 
 ![View Fans Website on a Tablet Device](./previews/Fans_Tablet.gif)
 
